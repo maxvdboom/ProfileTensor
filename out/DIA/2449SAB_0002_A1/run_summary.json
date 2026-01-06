@@ -1,0 +1,45 @@
+{
+  "file_path": "/Users/maxvandenboom/Docs/Coding/AI/ProfileTensor/data/2449SAB_0002_A1.mzML",
+  "file_size_bytes": 204444859,
+  "parser_backend": "lxml",
+  "mzml_id": "2449SAB_0002_A1",
+  "mzml_version": "1.1.0",
+  "run_id": "_x0032_449SAB_0002_A1",
+  "start_timestamp": "2025-02-14T19:43:47Z",
+  "cv_count": 2,
+  "software_count": 2,
+  "instrument_count": 1,
+  "data_processing_count": 1,
+  "total_spectra": 16228,
+  "spectra_sampled": 16228,
+  "ms_level_distribution": {
+    "1": 2723,
+    "2": 13505
+  },
+  "centroid_count": 16228,
+  "profile_count": 0,
+  "tic_range": [
+    26.0,
+    43698640.0
+  ],
+  "base_peak_mz_range": [
+    0.0001011908095498,
+    613.282689487771
+  ],
+  "base_peak_intensity_range": [
+    26.0,
+    9366840.0
+  ],
+  "rt_range": [
+    0.075,
+    899.82499999998
+  ],
+  "compression_counts": {
+    "zlib": 32456
+  },
+  "bit_depth_counts": {
+    "64": 16228,
+    "32": 16228
+  },
+  "parse_duration_sec": 1.6271018981933594
+}

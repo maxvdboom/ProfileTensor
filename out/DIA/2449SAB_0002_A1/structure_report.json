@@ -1,0 +1,396 @@
+{
+  "elements_hierarchy": {
+    "indexedmzML": [
+      "fileChecksum",
+      "indexList",
+      "indexListOffset",
+      "mzML"
+    ],
+    "mzML": [
+      "cvList",
+      "dataProcessingList",
+      "fileDescription",
+      "instrumentConfigurationList",
+      "run",
+      "softwareList"
+    ],
+    "cvList": [
+      "cv"
+    ],
+    "fileDescription": [
+      "fileContent",
+      "sourceFileList"
+    ],
+    "fileContent": [
+      "cvParam"
+    ],
+    "sourceFileList": [
+      "sourceFile"
+    ],
+    "sourceFile": [
+      "cvParam"
+    ],
+    "softwareList": [
+      "software"
+    ],
+    "software": [
+      "cvParam"
+    ],
+    "instrumentConfigurationList": [
+      "instrumentConfiguration"
+    ],
+    "instrumentConfiguration": [
+      "componentList",
+      "cvParam",
+      "softwareRef"
+    ],
+    "componentList": [
+      "analyzer",
+      "detector",
+      "source"
+    ],
+    "source": [
+      "cvParam"
+    ],
+    "analyzer": [
+      "cvParam"
+    ],
+    "detector": [
+      "cvParam"
+    ],
+    "dataProcessingList": [
+      "dataProcessing"
+    ],
+    "dataProcessing": [
+      "processingMethod"
+    ],
+    "processingMethod": [
+      "cvParam",
+      "userParam"
+    ],
+    "run": [
+      "chromatogramList",
+      "spectrumList"
+    ],
+    "spectrumList": [
+      "spectrum"
+    ],
+    "spectrum": [
+      "binaryDataArrayList",
+      "cvParam",
+      "precursorList",
+      "scanList"
+    ],
+    "scanList": [
+      "cvParam",
+      "scan"
+    ],
+    "scan": [
+      "cvParam",
+      "scanWindowList"
+    ],
+    "scanWindowList": [
+      "scanWindow"
+    ],
+    "scanWindow": [
+      "cvParam"
+    ],
+    "binaryDataArrayList": [
+      "binaryDataArray"
+    ],
+    "binaryDataArray": [
+      "binary",
+      "cvParam"
+    ],
+    "precursorList": [
+      "precursor"
+    ],
+    "precursor": [
+      "activation",
+      "isolationWindow",
+      "selectedIonList"
+    ],
+    "isolationWindow": [
+      "cvParam"
+    ],
+    "selectedIonList": [
+      "selectedIon"
+    ],
+    "selectedIon": [
+      "cvParam"
+    ],
+    "activation": [
+      "cvParam"
+    ],
+    "chromatogramList": [
+      "chromatogram"
+    ],
+    "chromatogram": [
+      "binaryDataArrayList",
+      "cvParam"
+    ],
+    "indexList": [
+      "index"
+    ],
+    "index": [
+      "offset"
+    ]
+  },
+  "element_occurrences": {
+    "indexedmzML": 1,
+    "mzML": 1,
+    "cvList": 1,
+    "cv": 2,
+    "fileDescription": 1,
+    "fileContent": 1,
+    "cvParam": 373173,
+    "sourceFileList": 1,
+    "sourceFile": 2,
+    "softwareList": 1,
+    "software": 2,
+    "instrumentConfigurationList": 1,
+    "instrumentConfiguration": 1,
+    "componentList": 1,
+    "source": 1,
+    "analyzer": 3,
+    "detector": 1,
+    "softwareRef": 1,
+    "dataProcessingList": 1,
+    "dataProcessing": 1,
+    "processingMethod": 3,
+    "userParam": 2,
+    "run": 1,
+    "spectrumList": 1,
+    "spectrum": 16228,
+    "scanList": 16228,
+    "scan": 16228,
+    "scanWindowList": 16228,
+    "scanWindow": 16228,
+    "binaryDataArrayList": 16230,
+    "binaryDataArray": 32462,
+    "binary": 32462,
+    "precursorList": 13505,
+    "precursor": 13505,
+    "isolationWindow": 13505,
+    "selectedIonList": 13505,
+    "selectedIon": 13505,
+    "activation": 13505,
+    "chromatogramList": 1,
+    "chromatogram": 2,
+    "indexList": 1,
+    "index": 2,
+    "offset": 16230,
+    "indexListOffset": 1,
+    "fileChecksum": 1
+  },
+  "selected_ion_summary": {
+    "selectedIonList_count_histogram": {
+      "1": 13505
+    },
+    "selectedIon_seen": 13505,
+    "selectedIon_mz_min": 105.15,
+    "selectedIon_mz_max": 637.4,
+    "selectedIon_mz_sample": [
+      637.4,
+      202.3,
+      202.3,
+      283.5,
+      105.15,
+      105.15,
+      394.1,
+      637.4,
+      394.1,
+      202.3,
+      105.15,
+      283.5,
+      105.15,
+      202.3,
+      202.3,
+      283.5,
+      394.1,
+      283.5,
+      637.4,
+      394.1,
+      283.5,
+      637.4,
+      637.4,
+      394.1,
+      394.1,
+      283.5,
+      637.4,
+      637.4,
+      394.1,
+      105.15,
+      105.15,
+      394.1,
+      105.15,
+      394.1,
+      394.1,
+      394.1,
+      283.5,
+      202.3,
+      105.15,
+      283.5,
+      202.3,
+      202.3,
+      202.3,
+      637.4,
+      202.3,
+      202.3,
+      202.3,
+      105.15,
+      283.5,
+      394.1,
+      105.15,
+      394.1,
+      283.5,
+      394.1,
+      637.4,
+      637.4,
+      637.4,
+      283.5,
+      105.15,
+      394.1,
+      394.1,
+      202.3,
+      637.4,
+      394.1,
+      394.1,
+      637.4,
+      105.15,
+      637.4,
+      394.1,
+      105.15,
+      105.15,
+      105.15,
+      637.4,
+      637.4,
+      637.4,
+      394.1,
+      105.15,
+      283.5,
+      105.15,
+      202.3,
+      394.1,
+      283.5,
+      394.1,
+      283.5,
+      105.15,
+      105.15,
+      105.15,
+      105.15,
+      105.15,
+      283.5,
+      202.3,
+      394.1,
+      105.15,
+      283.5,
+      394.1,
+      202.3,
+      637.4,
+      637.4,
+      394.1,
+      105.15,
+      637.4,
+      202.3,
+      202.3,
+      105.15,
+      394.1,
+      637.4,
+      105.15,
+      283.5,
+      637.4,
+      105.15,
+      394.1,
+      394.1,
+      202.3,
+      637.4,
+      105.15,
+      105.15,
+      202.3,
+      283.5,
+      202.3,
+      202.3,
+      394.1,
+      394.1,
+      105.15,
+      394.1,
+      637.4,
+      202.3,
+      637.4,
+      283.5,
+      394.1,
+      283.5,
+      394.1,
+      637.4,
+      637.4,
+      202.3,
+      105.15,
+      394.1,
+      283.5,
+      105.15,
+      394.1,
+      105.15,
+      202.3,
+      637.4,
+      105.15,
+      283.5,
+      202.3,
+      283.5,
+      105.15,
+      202.3,
+      394.1,
+      283.5,
+      202.3,
+      394.1,
+      637.4,
+      394.1,
+      637.4,
+      105.15,
+      637.4,
+      202.3,
+      283.5,
+      394.1,
+      105.15,
+      283.5,
+      283.5,
+      637.4,
+      283.5,
+      283.5,
+      637.4,
+      637.4,
+      637.4,
+      637.4,
+      202.3,
+      637.4,
+      105.15,
+      105.15,
+      105.15,
+      394.1,
+      394.1,
+      202.3,
+      637.4,
+      637.4,
+      202.3,
+      283.5,
+      105.15,
+      105.15,
+      394.1,
+      202.3,
+      202.3,
+      637.4,
+      637.4,
+      394.1,
+      283.5,
+      202.3,
+      105.15,
+      283.5,
+      283.5,
+      394.1,
+      394.1,
+      105.15,
+      105.15,
+      105.15
+    ]
+  }
+}

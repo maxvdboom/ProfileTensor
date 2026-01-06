@@ -1,0 +1,18 @@
+{
+  "classification": "DDA",
+  "total_ms2": 417,
+  "evidence": {
+    "dda_selectedIon_cnt1": 417,
+    "dda_selectedIon_cnt_gt1": 0,
+    "dia_iso_no_selected": 0,
+    "ms2_no_precursor": 0
+  },
+  "ratios": {
+    "dda_selectedIon_cnt1_per_ms2": 1.0,
+    "dia_iso_no_selected_per_ms2": 0.0
+  },
+  "thresholds": {
+    "dda_ratio_threshold": 0.8,
+    "dia_ratio_threshold": 0.8
+  }
+}

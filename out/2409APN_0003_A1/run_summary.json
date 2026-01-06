@@ -1,0 +1,44 @@
+{
+  "file_path": "/Users/maxvandenboom/Docs/Coding/AI/ProfileTensor/data/2409APN_0003_A1.mzML",
+  "file_size_bytes": 153718052,
+  "parser_backend": "lxml",
+  "mzml_id": "2409APN_0003_A1",
+  "mzml_version": "1.1.0",
+  "run_id": "_x0032_409APN_0003_A1",
+  "start_timestamp": "2024-03-18T14:54:45Z",
+  "cv_count": 2,
+  "software_count": 2,
+  "instrument_count": 1,
+  "data_processing_count": 1,
+  "total_spectra": 4185,
+  "spectra_sampled": 4185,
+  "ms_level_distribution": {
+    "1": 3768,
+    "2": 417
+  },
+  "centroid_count": 0,
+  "profile_count": 4185,
+  "tic_range": [
+    36.0,
+    4772629.0
+  ],
+  "base_peak_mz_range": [
+    30.760127802152,
+    552.841540624276
+  ],
+  "base_peak_intensity_range": [
+    4.0,
+    432994.0
+  ],
+  "rt_range": [
+    20.073,
+    419.93299999998
+  ],
+  "compression_counts": {
+    "zlib": 8370
+  },
+  "bit_depth_counts": {
+    "64": 8370
+  },
+  "parse_duration_sec": 0.41778993606567383
+}
