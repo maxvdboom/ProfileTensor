@@ -26,3 +26,5 @@ Thumbs.db
 
 # Data
 data/
+*.sif
+*.sif/
