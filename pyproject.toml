@@ -3,11 +3,23 @@ name = "profiletensor"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
 dependencies = [
-    "jupyterlab>=4.5.1",
-    "matplotlib>=3.10.8",
-    "notebook>=7.5.1",
-    "pandas>=2.3.3",
+    "jupyterlab",
+    "matplotlib",
+    "notebook",
+    "numpy>=2.0.0",
+    "pandas",
     "pip>=25.3",
+    "torch",
+    "torchvision",
 ]
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch" }
+torchvision = { index = "pytorch" }

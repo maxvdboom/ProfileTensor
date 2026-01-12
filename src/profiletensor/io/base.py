@@ -3,7 +3,7 @@ from collections.abc import Iterator
 from pathlib import Path
 from typing import ClassVar
 
-from ..core.spectrum import Spectrum, ScanMetadata
+from ..core import Spectrum, ScanMetadata
 
 class SpectrumReader(ABC):
     """
