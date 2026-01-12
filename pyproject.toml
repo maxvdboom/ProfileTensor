@@ -6,11 +6,13 @@ readme = "README.md"
 requires-python = ">=3.12,<3.14"
 dependencies = [
     "jupyterlab",
+    "lxml",
     "matplotlib",
     "notebook",
     "numpy>=2.0.0",
     "pandas",
     "pip>=25.3",
+    "pyteomics>=4.6",
     "torch",
     "torchvision",
 ]
